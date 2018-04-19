@@ -1,0 +1,11 @@
+{
+    "name": "duminling/du",
+    "description": "This a demo for build composer packagist .",
+    "authors": [
+        {
+            "name": "duminling",
+            "email": "1578180535@qq.com"
+        }
+    ],
+    "require": {}
+}
