@@ -1,9 +1,8 @@
 {
-    
-    "authors": [
-        {
-            "name": "duminling",
-            "email": "1578180535@qq.com"
-        }
-    ]
+    "name": "du",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    }
 }
