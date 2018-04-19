@@ -1,8 +1,22 @@
-{
-    "name": "duminling",
-    "description": "A short description of what your package does",
-    "require": {
-        "php": "^5.3.3 || ^7.0",
-        "another-vendor/package": "1.*"
+
+  "name": "lingan/try-make-package",
+  "description": "try make a package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "duminling",
+      "email": "1578180535@qq.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily"
+    }
+  }
 }
